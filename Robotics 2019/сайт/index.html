@@ -1,0 +1,293 @@
+<!-- Code Authors Lyubomir Slavchev and Hristo Dobrikov-->
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Robotics | Начало </title>
+
+			<link href="Styles/home.css" rel="stylesheet">
+			<meta charset="UTF-8">	
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<link rel="icon" href="Images/logo.png" type="image/gif" sizes="16x16">
+	</head>
+	<body>
+		<main>
+			<nav id="navbar" class="sticky">
+			<div class="logo">
+			<img src="Images/logo.png" class="logoImg">
+			<p class="logotext">Robotics</p></div>
+
+			<a href="Pages/karta.html">Карта</a>
+			<a href="Pages/about.html">За нас</a>
+			<a class="contact" href="#footer">Контакти</a>	
+  			<a class="galeria" href="#gallery">Роботи</a>
+			<a class="informacia dropbtn" href="Pages/info.html">Информация</a>
+  			<a class="nachalo active" href="">Начало</a>
+			</nav>
+		<header>
+
+			<div class="header-img"></div>
+			<div class="text">
+			<h1 class="heading">Роботикa</h1>
+			<h4 class="text1">Прочетете и научете повече за роботиката!</h4>
+			<div class="">
+  								<a class="btntext1" href="#info">Прочети повече</a>
+  			</div>	
+			</div>
+		</header>
+
+		<div id="info">
+		</div>
+		<section>
+  			<article>
+ 			<div class="info-box">
+  					<div class="big-info">
+  						<div class="big-img">
+  							<img class="big-img1" src="Images/original.png">
+
+  						</div>
+  						<div class="big-info-text">
+  							<p class="text-info">
+
+  								Роботика
+  							</p>	
+  							<hr class="clr">
+  							<p class="lower-text ">  								
+Роботиката е клон на техниката, машиностроенето, електроинженерстовото и информатиката, в който са включени дизайна, строежа, управлението и приложението на роботи, както и компютърните системи, нужни за техния контрол, приемане на данни от сензори и обработка...
+  							</p>
+  							<hr class="abab clr">	
+  							<a href="Pages/info.html" class="read">Прочетете повече...</a>
+  						</div>
+
+
+
+
+  					</div>
+  					<div class="small-box">
+  						<div class="small-info1">
+  							<div class="small-button">
+  								<a class="btntext" href="Pages/about.html">За нас</a>
+  								<hr class="line">
+  							</div>	
+
+
+  						</div>
+  						<div class="small-info2">
+							<div class="small-button">
+								<a class="btntext" href="Pages/karta.html">Карта</a>
+								<hr class="line">
+  							</div>	
+
+
+  						</div>
+
+
+  					</div>
+  				</div>	
+  			</article>
+              
+		</section>	
+
+		
+		<div class="gallery" id="gallery">
+			<p class="tex">Роботи</p>
+			<hr class="line1">
+			<div class="first-gallery">
+				<div class="gallery-box1">
+					
+					<img class="gallery-img1" id="myBtn" src="Images/gal1.jpg" >
+					
+					<div class="textHolder">
+					<p class="gallery-text">
+						Sophia
+					</p>
+					<p class="gallery-text1">Hanson Robotics</p>
+					</div>
+				</div>
+				<div class="gallery-box1">
+					<img class="gallery-img1" id="myBtn1" src="Images/gal2.jpg">
+					<div class="textHolder">
+					<p class="gallery-text">
+						Kuri
+					</p>
+					<p class="gallery-text1">Mayfield Robotics</p>
+					</div>
+				</div>
+				<div class="gallery-box1">
+					<img class="gallery-img1" id="myBtn2" src="Images/gal3.jpg" >
+					<div class="textHolder">
+					<p class="gallery-text">
+						Aibo
+					</p>
+					<p class="gallery-text1">Sony</p>
+					</div>
+
+				</div>
+
+
+			</div>	
+
+			<div class="second-gallery">
+				<div class="gallery-box1">
+					<img class="gallery-img1" id="myBtn3" src="Images/gal4.jpg" >
+					<div class="textHolder">
+					<p class="gallery-text">
+						 Octopusgripper
+					</p>
+					<p class="gallery-text1">Festo</p>
+					</div>
+				</div>
+
+				<div class="gallery-box1">
+					<img class="gallery-img1" id="myBtn4" src="Images/gal5.jpg" >
+					<div class="textHolder">
+					<p class="gallery-text">
+						Gita Cargo Bot
+					</p>
+					<p class="gallery-text1">Piaggio</p>
+					</div>
+
+				</div>
+
+				<div class="gallery-box1">
+					<img class="gallery-img1" id="myBtn5" src="Images/gal6.jpg" >
+					<div class="textHolder">
+					<p class="gallery-text">
+						3E Robotics Concept
+					</p>
+					<p class="gallery-text1"> Honda</p>
+					</div>
+				</div>
+
+			</div>
+
+</div>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">×</span>
+    <p class="gallery-text">
+						Sophia
+	</p>
+	<p class="gallery-text1">Hanson Robotics</p>
+     <iframe width="70%" height="315" class="video" id="video" src="https://www.youtube.com/embed/Ml9v3wHLuWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <p class="video-text">Камери в очите на София, комбинирани с компютърни алгоритми, й позволяват да види. Тя може да следва лица, да поддържа контакт с очите и да разпознава индивиди. Тя е способна да обработва реч и да води разговори, използвайки подсистема на естествения език.  Около януари 2018 г. София е модернизирана с функционални крака и възможност за ходене. 
+    <a href="Pages/info3.html" class="read">Прочетете повече...</a>
+</p>
+  </div>
+
+</div>
+
+<div id="myModal1" class="modal1">
+
+  <div class="modal-content">
+    <span class="close1">×</span>
+    <p class="gallery-text">
+						Kuri
+	</p>
+	<p class="gallery-text1">Mayfield Robotics</p>
+    <iframe width="70%" height="315" class="video" src="https://www.youtube.com/embed/QsxmZPRhlsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <p class="video-text">Капацитивните сензорни сензори позволяват на Kuri да реагира на човешко докосване.Нежно докосване до главата ще накара Kuri да погледне към вас. Камерата на Кури е спретнато разположена зад един от очите му. Той може да заснема 1080p HD снимки и видеоклипове. 
+    <a href="Pages/info.html" class="read">Прочетете повече...</a>
+  </div>
+
+</div>
+
+
+
+<div id="myModal2" class="modal2">
+
+  <div class="modal-content">
+    <span class="close2">×</span>
+    <p class="gallery-text">
+						Aibo
+	</p>
+	<p class="gallery-text1">Sony</p>
+   <iframe width="70%" height="315" class="video" src="https://www.youtube.com/embed/oGo0TwNXXuo?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <p class="video-text">С реалистични изрази и динамичен набор от движения, обичайното поведение на aibo носи топлина и наслада за ежедневието на собствениците му. Да бъдеш с хората е това, което aibo обича най-добре. С весело любопитство, aibo иска да те познава, да изследва средата му, да разбира пътищата на света и от време на време да бъдеш малко пакостлив. Тъй като aibo научава своята среда и развива отношения с хората, нейната идентичност придобива все повече и повече слоеве. Как искате тази идентичност да се оформи? С всичко, което правите, вашият aibo става вашият aibo.</p>
+  </div>
+
+	</div>	
+	
+
+<div id="myModal3" class="modal2">
+
+  <div class="modal-content">
+    <span class="close3">×</span>
+    <p class="gallery-text">
+						Octopusgripper
+	</p>
+	<p class="gallery-text1">Festo</p>
+   <iframe width="70%" height="315" class="video" src="https://www.youtube.com/embed/rKX3IKg5Qok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <p class="video-text">Германската компания за индустриална автоматизация Festo излезе с бионичен захват. Фирмените области на компанията включват пневматична, сервопневматична и електрическа технология за автоматизация и бионичният захват със сигурност привлича вниманието в технологичната преса.Името е доста подходящо. В щипци е по подобие на октопод пипало. Предимството му е в способността му да се държи меко, но сигурно. Нещо повече, бионичният хващач може да вземе и задържи различни форми. Видеото показва, че с обектите с форма на кутии, топката, пластмасовата бутилка за вода и стъклото успешно.</p>
+  </div>
+
+</div>
+
+</div>
+
+<div id="myModal4" class="modal4">
+
+  <div class="modal-content">
+    <span class="close4">×</span>
+    <p class="gallery-text">
+						Gita Cargo Bot
+	</p>
+	<p class="gallery-text1">Piaggio</p>
+     <iframe width="70%" height="315"class="video" src="https://www.youtube.com/embed/Z9nEQBHceh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="video-text">Eвентуалнo братовчед на BB-8 Междузвездни войни ", Gita Cargo Bot е най-новото издание от Piaggio , компания, който е най-вероятно най-известен със създаването на Веспа скутер. Вместо да мъкнете нещата си от А до Б, Gita е предназначена да носи вашите неща - освобождавайки ръцете wi, за да можете да продължите с това, което е важно.</p>
+  </div>
+
+</div>
+
+
+
+<div id="myModal5" class="modal5">
+
+  <div class="modal-content">
+    <span class="close5">×</span>
+    <p class="gallery-text">
+						3E Robotics Concept
+	</p>
+	<p class="gallery-text1">Honda</p>
+  <iframe width="70%" height="315"class="video" src="https://www.youtube.com/embed/OO3yfSw7c4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="video-text">Проектирани да помагат на хората с всякакви задачи в бъдеще, 3E визията на Хонда означава "Empower, Experience, Empathy" и концепциите на CES са предназначени да покажат как компанията вижда бъдещите системи не само да помагат на хората да се справят по-добре с живота им, но и да се учат от техните взаимодействия с хората, за да се подобрят тяхната полезност и да станат по-съпричастни. И компанията търси партньори от индустрията да се включат в тази визия, като помагат за създаването на системи за сътрудничество, вместо за собствени самостоятелни ботове.</p>
+  </div>
+
+</div>
+
+
+
+		</main>
+		<footer id="footer">
+				
+
+  		<p class="fot-text b">
+				МЕНЮ<br>
+				<br>
+
+			<a class="fot-menu" href="#navbar">Начало</a><br>
+			<a class="fot-menu" href="#info">Информация</a><br>
+			<a class="fot-menu" href="#gallery">Галерия</a><br>
+			<a class="fot-menu" href="#footer">Контакти</a><br>	
+			<a class="fot-menu" href="Pages/about.html">За нас</a><br>
+			<a class="fot-menu" href="Pages/karta.html">Карта на сайта</a>
+					
+  		</p>
+
+  		
+  		<p class="fot-text2 ">
+			<img class="footer-img" src="Images/logo.png">
+  		</p>
+
+  		<p class="fot-text1">
+					Сайтът е изработен за 11 Национално състезание по информационни технологии гр. Благоевград
+  		</p>
+</footer>
+
+		<script src="Scripts/script.js"></script>
+
+		<script src="Scripts/animations.js"></script>
+	
+</body>
+</html>
